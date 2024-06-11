@@ -1,0 +1,87 @@
+#tvshows-list {
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: linear-gradient(to right top, #ffffff, #f6f6f6, #ececec, #e3e3e3, #dadada);
+}
+
+.card img {
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 500px;
+
+}
+
+.card-title {
+    min-height: 2em; /* Tamaño mínimo de tarjeta */
+    max-height: 2em; /* Tamaño máximo de tarjeta */
+    white-space: normal;
+}
+
+.card-text {
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card .btn {
+    align-self: flex;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+/* Estilo de la pagina */
+body {
+    background-image: linear-gradient(to right top, #000000, #0e0308, #160613, #190b1c, #171026, 
+    #15112f, #0f1338, #001542, #00134b, #000f54, #00095c, #030063);
+}
+
+header h1,
+header p {
+    color: white; 
+}
+
+/* Estilos para la parte superior */
+.top-bar {
+    background-image: linear-gradient(to right top, #000000, #100007, #160013, #15001e, #08002b);
+    padding: 15px 0;
+}
+
+.site-name {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.red-box {
+    background-color: red;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.site-name-text {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+

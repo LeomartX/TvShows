@@ -1,0 +1,100 @@
+#carousel-image {
+    max-width: 300px;
+    max-height: 400px;
+    border: 2px solid #333;
+}
+
+/* Estilos Fondo */
+body {
+    background-image: linear-gradient(to right top, #000000, #0e0308, #160613, #190b1c, #171026, 
+    #15112f, #0f1338, #001542, #00134b, #000f54, #00095c, #030063);
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-image: linear-gradient(to right top, #ffffff, #f0eff4, #e0dfea, #d0cfdf, #c0c0d5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: #ff0000; 
+}
+
+/* Estilos para el carrusel */
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#carousel-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.carousel button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.carousel button:hover {
+    background-color: #0056b3;
+}
+
+/* Color de títulos */
+.details p strong {
+    color: #007bff;
+}
+
+.episode {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    margin: 10px 0;
+    width: 100%;
+}
+
+/* Estilos para la parte superior */
+.top-bar {
+    background-image: linear-gradient(to right top, #000000, #100007, #160013, #15001e, #08002b);
+    padding: 10px 0;
+}
+
+.red-box {
+    background-color: red;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.site-name-text {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.season-select {
+    display: block;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px; 
+}

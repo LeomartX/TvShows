@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tv Show Details</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="detailstyle.css">
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col">
+                    <div class="site-name d-flex justify-content-center">
+                        <div class="red-box">
+                            <span class="site-name-text">TvShowFlix</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <a href="tvshows.html" class="close-btn">&times;</a>
+        <header class="text-center">
+            <h1 id="show-title">Show Title</h1>
+        </header>
+
+        <div class="carousel">
+            <button id="prev" class="btn btn-primary">&lt;</button>
+            <img id="carousel-image" src="" alt="Show Image">
+            <button id="next" class="btn btn-primary">&gt;</button>
+        </div>
+        
+        <div class="details">
+            <p><strong>Description:</strong> <span id="description"></span></p>
+            <p><strong>Genres:</strong> <span id="genres"></span></p>
+            <p><strong>Network:</strong> <span id="network"></span></p>
+            <p><strong>Status:</strong> <span id="status"></span></p>
+            <p><strong>Start Date:</strong> <span id="start-date"></span></p>
+        </div>
+
+        <div class="season-select">
+            <label for="season-select">Select Season:</label>
+            <select id="season-select">
+            </select>
+        </div>
+    
+        <div id="episodes"></div>
+    </div>
+
+    <script src="tvshowdetails.js"></script>
+</body>
+</html>
